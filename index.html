@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rédwane Idrissi — Engineering Automation / CAD Software Engineer</title>
+  <meta name="description" content="Civil engineer who automated his own drafting workflow: SolidWorks COM/API automation, IFC and PDF data extraction, task orchestration, testing and deployment of a production CAD tool.">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="#top" aria-label="Back to top">R. Idrissi</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#background">Background</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__text">
+        <p class="eyebrow">Portfolio</p>
+        <h1 class="hero__name">Rédwane Idrissi</h1>
+        <p class="hero__title">Engineering Automation / CAD Software Engineer</p>
+
+        <p class="hero__lead">I turn repetitive engineering workflows into working automation tools.</p>
+        <p class="hero__p">I started by automating the SolidWorks drafting work I was doing myself. What began as a few VBA scripts grew into a production system that now generates complete CAD deliverables from engineering inputs.</p>
+
+        <div class="proof">
+          <span class="proof__num">~5 min</span>
+          <p class="proof__txt"><strong>automated generation</strong> vs ~8–12 h of comparable manual drafting, on supported workflows.</p>
+        </div>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="#work">See the CAD automation project</a>
+          <a class="link" href="https://be.linkedin.com/in/r%C3%A9dwane-idrissi-775712339" target="_blank" rel="me noopener">LinkedIn</a>
+          <a class="link" href="mailto:redwaneidrissi@hotmail.com">Email</a>
+        </div>
+      </div>
+
+      <figure class="board" aria-label="The automated workflow in four sanitized frames">
+        <ol class="board__grid">
+          <li class="step step--in">
+            <img src="assets/hero-1-ifc.jpg" width="880" height="550" alt="IFC model of a staircase cage viewed in an IFC viewer" loading="eager">
+            <figcaption>IFC input</figcaption>
+          </li>
+          <li class="step step--params">
+            <img src="assets/hero-2-parameters.jpg" width="1000" height="634" alt="Tool interface showing the extracted step table, flights and a stair elevation with dimensions" loading="eager">
+            <figcaption>Extracted parameters</figcaption>
+          </li>
+          <li class="step step--main">
+            <img src="assets/hero-3-assembly.jpg" width="640" height="700" alt="Isometric view of the generated staircase cage assembly in SolidWorks" loading="eager">
+            <figcaption>Generated SolidWorks assembly</figcaption>
+          </li>
+          <li class="step step--out">
+            <img src="assets/hero-4-drawing.jpg" width="820" height="505" alt="Generated production drawing of a stair flight with section, reinforcement table and title block" loading="eager">
+            <figcaption>Production drawing</figcaption>
+          </li>
+        </ol>
+        <figcaption class="board__note">Frames from the sanitized demonstrations below.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ===== WORK ===== -->
+  <section id="work" class="section">
+    <div class="wrap">
+      <p class="eyebrow"><span class="eyebrow__k">01</span>Work</p>
+      <p class="section__note">All demonstrations are sanitized: company, customer and project-identifying details have been removed or blurred.</p>
+
+      <!-- Case study 1 -->
+      <article class="case">
+        <header class="case__head">
+          <p class="case__label">Case Study 01 — Parametric CAD Automation Platform</p>
+          <h2 class="case__title">Engineering data → parametric CAD → assemblies → production drawings</h2>
+          <p class="case__intro">Structured engineering inputs in; parametric geometry, SolidWorks models, assemblies and technical drawings out. Engineers review and adjust the parameters in the interface; the CAD work itself is automated.</p>
+          <div class="why">
+            <h3>Why I built it</h3>
+            <p>I was doing this drafting work myself, and much of it was repetitive. A handful of VBA scripts removed the worst of it; once I had shown internally what the approach could do, I was moved onto the project full-time and have owned it end-to-end since.</p>
+          </div>
+        </header>
+
+        <figure class="media">
+          <video controls preload="metadata" poster="assets/poster-highlight.jpg" playsinline>
+            <source src="assets/video-cad-highlight.mp4" type="video/mp4">
+            Your browser does not support the video element.
+          </video>
+          <figcaption>Highlights (1:37) — one complete run, in order: input PDF, parameter extraction, adjustments in the interface, SolidWorks generation, drawings and assembly. Sanitized demo.</figcaption>
+        </figure>
+
+        <details class="more">
+          <summary class="btn">Watch the full workflow demo (8:58)</summary>
+          <figure class="media">
+            <video controls preload="none" poster="assets/poster-full.jpg" playsinline>
+              <source src="assets/video-data.mp4" type="video/mp4">
+              Your browser does not support the video element.
+            </video>
+            <figcaption>Full workflow demonstration — waiting phases shortened or accelerated for viewing. Sanitized demo.</figcaption>
+          </figure>
+        </details>
+
+        <section id="impact" class="impact" aria-label="Workflow impact">
+          <h3>Workflow impact</h3>
+          <div class="impact__nums">
+            <div><span class="impact__num">~5 min</span><span class="impact__lbl">automated generation of a complete staircase cage</span></div>
+            <div><span class="impact__num">15–20 min</span><span class="impact__lbl">typical follow-up adjustments</span></div>
+            <div><span class="impact__num">~8–12 h</span><span class="impact__lbl">comparable manual drafting, experienced drafter</span></div>
+          </div>
+          <p>On supported cases, a complete staircase cage can be generated in around 5 minutes, with typical follow-up adjustments taking roughly 15–20 minutes. Comparable manual drafting could take around 8–12 hours for an experienced drafter, depending on the project.</p>
+          <p>For edge cases not yet fully automated, the system still produces a useful starting point instead of forcing engineers to rebuild everything from scratch.</p>
+          <p class="impact__note">These are observations from real workflow use within the supported scope, not a controlled benchmark.</p>
+        </section>
+
+        <ul class="facets" aria-label="What the platform covers">
+          <li>
+            <span class="k">01</span>
+            <h3>Engineering data ingestion</h3>
+            <p>PDF and IFC extraction, cross-checks between sources, conversion into structured parameters.</p>
+          </li>
+          <li>
+            <span class="k">02</span>
+            <h3>CAD automation</h3>
+            <p>SolidWorks driven from Python through COM/API: geometry, parts, assemblies, drawings, dimensions, exports.</p>
+          </li>
+          <li>
+            <span class="k">03</span>
+            <h3>Reliable execution</h3>
+            <p>Parallel CAD workers, task orchestration, retries and recovery, validation of what was actually generated.</p>
+          </li>
+          <li>
+            <span class="k">04</span>
+            <h3>Production software</h3>
+            <p>Automated tests, packaging, installers, versioning and updates. Actively developed and already used on real engineering work within its supported scope.</p>
+          </li>
+        </ul>
+
+        <p class="tools"><span>Core tools</span>Python · SolidWorks COM/API · IFC · Rust</p>
+      </article>
+
+      <!-- Case study 2 -->
+      <article class="case">
+        <header class="case__head">
+          <p class="case__label">Case Study 02 — Engineering Data Extraction</p>
+          <h2 class="case__title">IFC / PDF → structured engineering parameters</h2>
+          <p class="case__intro">These tools read IFC models and vector PDF drawings, reconcile what the different sources say, and turn the result into parameters the CAD automation can work from.</p>
+        </header>
+
+        <figure class="media">
+          <video controls preload="metadata" poster="assets/poster-ifc.jpg" playsinline>
+            <source src="assets/video-cad.mp4" type="video/mp4">
+            Your browser does not support the video element.
+          </video>
+          <figcaption>IFC demonstration (3:17) — model import, cage recognition and parameter extraction, through to the generated drawings. Sanitized demo.</figcaption>
+        </figure>
+
+        <ul class="tags" aria-label="Topics">
+          <li>IFC / STEP</li>
+          <li>PDF geometry</li>
+          <li>Structured engineering data</li>
+        </ul>
+      </article>
+
+      <!-- Case study 3 -->
+      <article class="case case--compact">
+        <header class="case__head">
+          <p class="case__label">Case Study 03 — IFC Data Extraction Utility</p>
+          <h2 class="case__title">IFC → Excel parameter sheet</h2>
+          <p class="case__intro">A focused utility launched from the Windows “Send to” menu. It reads an IFC model and writes the engineering parameters it finds to an Excel workbook, each value with its source and a confidence level, plus a diagnostic sheet listing what could not be read.</p>
+        </header>
+
+        <figure class="media">
+          <video controls preload="metadata" poster="assets/poster-ifc-excel.jpg" playsinline>
+            <source src="assets/video-ifc-excel.mp4" type="video/mp4">
+            Your browser does not support the video element.
+          </video>
+          <figcaption>Demonstration (1:42) — from the IFC file to the finished workbook. Sanitized demo.</figcaption>
+        </figure>
+
+        <ul class="tags" aria-label="Topics">
+          <li>IFC parsing</li>
+          <li>Structured Excel export</li>
+          <li>Rust parser</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== ARCHITECTURE ===== -->
+  <section id="architecture" class="section section--alt">
+    <div class="wrap wrap--wide">
+      <p class="eyebrow"><span class="eyebrow__k">02</span>Architecture</p>
+      <h2 class="section__title">From engineering inputs to CAD deliverables</h2>
+
+      <ol class="pipe" aria-label="System pipeline, left to right">
+        <li class="pipe__node pipe__node--io"><span class="pipe__k">01</span><span class="pipe__l">PDF / IFC / Parameters</span><span class="pipe__a">inputs</span></li>
+        <li class="pipe__node"><span class="pipe__k">02</span><span class="pipe__l">Engineering Data Extraction</span><span class="pipe__a">PDF and IFC parsers, cross-checks</span></li>
+        <li class="pipe__node"><span class="pipe__k">03</span><span class="pipe__l">Rules &amp; Parametric Geometry</span><span class="pipe__a">engineering rules</span></li>
+        <li class="pipe__node"><span class="pipe__k">04</span><span class="pipe__l">Task Orchestration</span><span class="pipe__a">queue, retries, recovery</span></li>
+        <li class="pipe__node"><span class="pipe__k">05</span><span class="pipe__l">SolidWorks COM/API Workers</span><span class="pipe__a">isolated instances</span></li>
+        <li class="pipe__node pipe__node--io"><span class="pipe__k">06</span><span class="pipe__l">Parts · Assemblies · Drawings · PDF / IFC</span><span class="pipe__a">deliverables</span></li>
+      </ol>
+      <div class="pipe__spans" aria-hidden="true">
+        <span class="pipe__span pipe__span--logic">engineering logic — testable without SolidWorks</span>
+        <span class="pipe__span pipe__span--cad">CAD execution</span>
+      </div>
+
+      <p class="note">As much as possible, the engineering logic is kept separate from the CAD execution layer, which makes large parts of the system testable without a running SolidWorks instance.</p>
+    </div>
+  </section>
+
+  <!-- ===== CHALLENGES ===== -->
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow"><span class="eyebrow__k">03</span>Selected technical challenges</p>
+      <dl class="challenges">
+        <div class="challenge">
+          <span class="k">01 / Process isolation</span>
+          <dt>Parallel CAD instances</dt>
+          <dd>SolidWorks runs in isolated worker instances driven by a task orchestration layer, so generation does not interfere with the engineer's own open CAD session.</dd>
+        </div>
+        <div class="challenge">
+          <span class="k">02 / Output validation</span>
+          <dt>Trust measurements, not API success codes</dt>
+          <dd>A successful API call does not mean the geometry is right. Generated parts and drawings are checked against physical measurements, bounding boxes and the PDF output rather than taken on the API's word.</dd>
+        </div>
+        <div class="challenge">
+          <span class="k">03 / COM interop</span>
+          <dt>Working around a difficult COM interface</dt>
+          <dd>SolidWorks' COM interface is thinly documented at the edges. The Python integration is built around late binding, careful handling of COM object behaviour and edge cases discovered in practice.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===== BACKGROUND ===== -->
+  <section id="background" class="section">
+    <div class="wrap">
+      <p class="eyebrow"><span class="eyebrow__k">04</span>Background</p>
+      <h2 class="section__title">Engineering background</h2>
+      <p class="prose">I trained as a civil/structural engineer, with hands-on FEM/CAE work including Abaqus, and have coordinated projects in industrial and nuclear environments. That background is why I understand both the engineering workflow and the software needed to automate it.</p>
+      <p class="tools"><span>Engineering</span>Abaqus · FEM/CAE · structural engineering</p>
+
+      <div class="aside">
+        <h3>AI as an engineering multiplier</h3>
+        <p>I use coding agents extensively: they speed up investigation, implementation and iteration considerably. What they do not replace is the thinking. I own the product vision, the engineering requirements, the architecture, the validation strategy and every final technical decision, and agent output is judged on tests, real CAD execution and user feedback, not taken on trust.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section">
+    <div class="wrap">
+      <p class="eyebrow"><span class="eyebrow__k">05</span>Contact</p>
+      <h2 class="section__title">Get in touch</h2>
+      <div class="cta">
+        <a class="btn btn--primary" href="mailto:redwaneidrissi@hotmail.com">Email</a>
+        <a class="btn" href="https://be.linkedin.com/in/r%C3%A9dwane-idrissi-775712339" target="_blank" rel="me noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p>Developed in a professional environment. Demonstrations are sanitized and the architecture is intentionally generalized; proprietary source code, customer data and internal engineering rules are not disclosed.</p>
+  </div>
+</footer>
+
+</body>
+</html>
